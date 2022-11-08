@@ -1,0 +1,30 @@
+Domain Name 	dev-fmpck2a2.us.auth0.com
+
+API_IDENTIFIER	coffee
+
+Client ID   	ItrSQD00jYqFDy5Me5wIkZdw8XMT9n6m
+
+
+
+Allowed callback Urls	http://localhost:8080/login-results
+
+Allowed logout Urls		http://localhost:8080/logout
+
+App login Urls			https://127.0.0.1:8080/login
+
+
+https://{{YOUR_DOMAIN}}/authorize?audience={{API_IDENTIFIER}}&response_type=token&client_id={{YOUR_CLIENT_ID}}&redirect_uri={{YOUR_CALLBACK_URI}}
+
+#Very Good
+https://dev-fmpck2a2.us.auth0.com/authorize?audience=coffee&response_type=token&client_id=ItrSQD00jYqFDy5Me5wIkZdw8XMT9n6m&redirect_uri=http://localhost:8080/login-results
+
+
+
+
+
+
+
+http://localhost:8080/login-results#access_token=&expires_in=7200&token_type=Bearer
+
+eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Inl3eWhtTERjQWdGOHBKZmlVUEdQRCJ9.eyJpc3MiOiJodHRwczovL2Rldi1mbXBjazJhMi51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjM2NmQ1MzIwMGY5MTM4YjcyOWJjYTQ4IiwiYXVkIjoiY29mZmVlIiwiaWF0IjoxNjY3ODI3NDk5LCJleHAiOjE2Njc4MzQ2OTksImF6cCI6Ikl0clNRRDAwallxRkR5NU1lNXdJa1pkdzhYTVQ5bjZtIiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJkZWxldGU6ZHJpbmtzIiwiZ2V0OmRyaW5rcyIsImdldDpkcmlua3MtZGV0YWlsIiwicGF0Y2g6ZHJpbmtzIiwicG9zdDpkcmlua3MiXX0.aqS8wllsmu98mtXlsgBaPt8c6F6BPmLbpM2cX0UWrx_1a-bZyh7ODkMYJvhsAYmdZtp8C9ehc8cbC24I00YmXvnHDqTHNw_RlCabDUvcIH7P8quicGisbqLFbY6ZV9PVHlA1MZ6c_tIADnXShUKzSF327thABt6vch6prDGZke7XWLQ_YsTujugZGNCTG1pUb037XrWlSsILQgXAuOJBKm5Lnr9ofoZfGBny2vQEu773lb_1_S_DRY2Al7WrGiPGQZxR6k1ClP-TzWRwk8CxSMuIClx2wolGUvEMtRY4titb1Xmvbx_pLDL6mv1UkPK_ugLR96AAMqdLZy2mXqPWGQ
+
